@@ -1,0 +1,66 @@
+.App {
+  background-color: white;
+  min-height: 90vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+body {
+  background-color: #F2D1D1;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  margin: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.add {
+  margin-top: 5px;
+  background-color: #F2D1D1;
+  padding: 10px;
+  border: none;
+  width: 50%;
+  color: #374259;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+.delete {
+  margin-bottom: 20px;
+  background-color: #A7D2CB;
+  padding: 10px;
+  border: none;
+  width: 50%;
+  color: #374259;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10%;
+}
